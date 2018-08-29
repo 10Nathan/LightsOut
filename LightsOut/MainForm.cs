@@ -59,13 +59,13 @@ namespace LightsOut
 
                     if(grid[r, c])
                     {
-                        pen = Pens.Black;
-                        brush = Brushes.White;
+                        pen = Pens.AliceBlue;
+                        brush = Brushes.Red;
                     }
                     else
                     {
-                        pen = Pens.White;
-                        brush = Brushes.Black;
+                        pen = Pens.Purple;
+                        brush = Brushes.ForestGreen;
                     }
 
                     int x = c * CellLength + GridOffset;
